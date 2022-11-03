@@ -22,8 +22,8 @@ public class PickyEater {
         System.out.print("How many pats of butter are on top? (#) ");
         int butterPats = Integer.parseInt(userInput.nextLine());
 
-        if (butterPats > 6) {
-            System.out.println("As long as the green is hiddn by chedder, it'll happen!");
+        if (butterPats < 6) {
+            System.out.println("As long as the green is hidden by cheddar, it'll happen!");
         }
 
         System.out.print("Is it covered in chocolate? (y/n) ");
