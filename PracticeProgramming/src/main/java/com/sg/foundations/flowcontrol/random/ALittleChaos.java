@@ -11,7 +11,7 @@ public class ALittleChaos {
         System.out.println("Or a double: " + randomizer.nextDouble());
         System.out.println("Or even a boolean: " + randomizer.nextBoolean());
 
-        int num = randomizer.nextInt(100);
+        int num = randomizer.nextInt((51) + 50);
 
         System.out.println("You can store a randomized result: " + num);
         System.out.println("And use it over and over again: " + num +", " + num);

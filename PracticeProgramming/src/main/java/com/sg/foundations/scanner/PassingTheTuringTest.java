@@ -38,6 +38,8 @@ public class PassingTheTuringTest {
         int total = favNumber * number ;
         System.out.println("Did you know " + favNumber + " * " + number + " is "  + total + "? That's a cool number too!");
 
+
+
     }
 
 }
